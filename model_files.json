@@ -1,0 +1,186 @@
+{
+  "model_info": {
+    "name": "THUDM/cogvlm2-llama3-caption",
+    "architecture": "CogVLMVideoForCausalLM",
+    "model_type": "",
+    "vocab_size": 128256,
+    "hidden_size": 4096,
+    "num_layers": 32,
+    "num_attention_heads": 32,
+    "max_position_embeddings": 2048,
+    "license": null,
+    "language": null,
+    "pipeline_tag": null
+  },
+  "repository_info": {
+    "source_url": "https://huggingface.co/THUDM/cogvlm2-llama3-caption",
+    "downloads": 0,
+    "likes": 0,
+    "created_at": null,
+    "last_modified": null,
+    "description": "HuggingFace model: THUDM/cogvlm2-llama3-caption"
+  },
+  "model_files": [
+    {
+      "name": "model-00001-of-00006.safetensors",
+      "size": 4976699712,
+      "size_formatted": "4GB",
+      "type": "safetensors",
+      "isLFS": true,
+      "tensor_count": 74,
+      "sample_tensors": "    - model.embed_tokens.weight: shape=[128256,4096], dtype=BF16\n    - model.layers.0.input_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.0.mlp.language_mlp.down_proj.weight: shape=[4096,14336], dtype=BF16\n    - model.layers.0.mlp.language_mlp.gate_proj.weight: shape=[14336,4096], dtype=BF16\n    - model.layers.0.mlp.language_mlp.up_proj.weight: shape=[14336,4096], dtype=BF16"
+    },
+    {
+      "name": "model-00002-of-00006.safetensors",
+      "size": 4999803504,
+      "size_formatted": "4GB",
+      "type": "safetensors",
+      "isLFS": true,
+      "tensor_count": 91,
+      "sample_tensors": "    - model.layers.10.input_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.10.mlp.language_mlp.down_proj.weight: shape=[4096,14336], dtype=BF16\n    - model.layers.10.mlp.language_mlp.gate_proj.weight: shape=[14336,4096], dtype=BF16\n    - model.layers.10.mlp.language_mlp.up_proj.weight: shape=[14336,4096], dtype=BF16\n    - model.layers.10.post_attention_layernorm.weight: shape=[4096], dtype=BF16"
+    },
+    {
+      "name": "model-00003-of-00006.safetensors",
+      "size": 4915917160,
+      "size_formatted": "4GB",
+      "type": "safetensors",
+      "isLFS": true,
+      "tensor_count": 89,
+      "sample_tensors": "    - model.layers.20.input_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.20.mlp.language_mlp.down_proj.weight: shape=[4096,14336], dtype=BF16\n    - model.layers.20.mlp.language_mlp.up_proj.weight: shape=[14336,4096], dtype=BF16\n    - model.layers.20.post_attention_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.21.input_layernorm.weight: shape=[4096], dtype=BF16"
+    },
+    {
+      "name": "model-00004-of-00006.safetensors",
+      "size": 4956242104,
+      "size_formatted": "4GB",
+      "type": "safetensors",
+      "isLFS": true,
+      "tensor_count": 438,
+      "sample_tensors": "    - model.layers.31.input_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.31.mlp.language_mlp.down_proj.weight: shape=[4096,14336], dtype=BF16\n    - model.layers.31.post_attention_layernorm.weight: shape=[4096], dtype=BF16\n    - model.norm.weight: shape=[4096], dtype=BF16\n    - model.vision.boi: shape=[1,1,4096], dtype=BF16"
+    },
+    {
+      "name": "model-00005-of-00006.safetensors",
+      "size": 4115863248,
+      "size_formatted": "3GB",
+      "type": "safetensors",
+      "isLFS": true,
+      "tensor_count": 336,
+      "sample_tensors": "    - model.vision.conv.bias: shape=[1792], dtype=BF16\n    - model.vision.conv.weight: shape=[1792,1792,2,2], dtype=BF16\n    - model.vision.linear_proj.dense_4h_to_h.weight: shape=[4096,14336], dtype=BF16\n    - model.vision.linear_proj.dense_h_to_4h.weight: shape=[14336,4096], dtype=BF16\n    - model.vision.linear_proj.gate_proj.weight: shape=[14336,4096], dtype=BF16"
+    },
+    {
+      "name": "model-00006-of-00006.safetensors",
+      "size": 1050673280,
+      "size_formatted": "1002MB",
+      "type": "safetensors",
+      "isLFS": true,
+      "tensor_count": 1,
+      "sample_tensors": "    - lm_head.weight: shape=[128256,4096], dtype=BF16"
+    }
+  ],
+  "file_summary": {
+    "total_files": 22,
+    "model_files_count": 6,
+    "total_size": 25025703042,
+    "total_size_formatted": "23.31GB",
+    "file_types": {
+      "gitattributes": 1,
+      "png": 1,
+      "md": 2,
+      "json": 7,
+      "py": 5,
+      "safetensors": 6
+    }
+  },
+  "extracted_metadata": {
+    "modelFiles": [
+      {
+        "name": "model-00001-of-00006.safetensors",
+        "size": 4976699712,
+        "size_formatted": "4GB",
+        "type": "safetensors",
+        "isLFS": true,
+        "tensor_count": 74,
+        "sample_tensors": "    - model.embed_tokens.weight: shape=[128256,4096], dtype=BF16\n    - model.layers.0.input_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.0.mlp.language_mlp.down_proj.weight: shape=[4096,14336], dtype=BF16\n    - model.layers.0.mlp.language_mlp.gate_proj.weight: shape=[14336,4096], dtype=BF16\n    - model.layers.0.mlp.language_mlp.up_proj.weight: shape=[14336,4096], dtype=BF16"
+      },
+      {
+        "name": "model-00002-of-00006.safetensors",
+        "size": 4999803504,
+        "size_formatted": "4GB",
+        "type": "safetensors",
+        "isLFS": true,
+        "tensor_count": 91,
+        "sample_tensors": "    - model.layers.10.input_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.10.mlp.language_mlp.down_proj.weight: shape=[4096,14336], dtype=BF16\n    - model.layers.10.mlp.language_mlp.gate_proj.weight: shape=[14336,4096], dtype=BF16\n    - model.layers.10.mlp.language_mlp.up_proj.weight: shape=[14336,4096], dtype=BF16\n    - model.layers.10.post_attention_layernorm.weight: shape=[4096], dtype=BF16"
+      },
+      {
+        "name": "model-00003-of-00006.safetensors",
+        "size": 4915917160,
+        "size_formatted": "4GB",
+        "type": "safetensors",
+        "isLFS": true,
+        "tensor_count": 89,
+        "sample_tensors": "    - model.layers.20.input_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.20.mlp.language_mlp.down_proj.weight: shape=[4096,14336], dtype=BF16\n    - model.layers.20.mlp.language_mlp.up_proj.weight: shape=[14336,4096], dtype=BF16\n    - model.layers.20.post_attention_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.21.input_layernorm.weight: shape=[4096], dtype=BF16"
+      },
+      {
+        "name": "model-00004-of-00006.safetensors",
+        "size": 4956242104,
+        "size_formatted": "4GB",
+        "type": "safetensors",
+        "isLFS": true,
+        "tensor_count": 438,
+        "sample_tensors": "    - model.layers.31.input_layernorm.weight: shape=[4096], dtype=BF16\n    - model.layers.31.mlp.language_mlp.down_proj.weight: shape=[4096,14336], dtype=BF16\n    - model.layers.31.post_attention_layernorm.weight: shape=[4096], dtype=BF16\n    - model.norm.weight: shape=[4096], dtype=BF16\n    - model.vision.boi: shape=[1,1,4096], dtype=BF16"
+      },
+      {
+        "name": "model-00005-of-00006.safetensors",
+        "size": 4115863248,
+        "size_formatted": "3GB",
+        "type": "safetensors",
+        "isLFS": true,
+        "tensor_count": 336,
+        "sample_tensors": "    - model.vision.conv.bias: shape=[1792], dtype=BF16\n    - model.vision.conv.weight: shape=[1792,1792,2,2], dtype=BF16\n    - model.vision.linear_proj.dense_4h_to_h.weight: shape=[4096,14336], dtype=BF16\n    - model.vision.linear_proj.dense_h_to_4h.weight: shape=[14336,4096], dtype=BF16\n    - model.vision.linear_proj.gate_proj.weight: shape=[14336,4096], dtype=BF16"
+      },
+      {
+        "name": "model-00006-of-00006.safetensors",
+        "size": 1050673280,
+        "size_formatted": "1002MB",
+        "type": "safetensors",
+        "isLFS": true,
+        "tensor_count": 1,
+        "sample_tensors": "    - lm_head.weight: shape=[128256,4096], dtype=BF16"
+      }
+    ],
+    "configFiles": [
+      {
+        "name": "config.json",
+        "size": 1010,
+        "size_formatted": "1010B"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "size": 73,
+        "size_formatted": "73B"
+      },
+      {
+        "name": "tokenizer.json",
+        "size": 9084463,
+        "size_formatted": "8MB"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 51111,
+        "size_formatted": "49KB"
+      }
+    ],
+    "totalSize": 25025703042,
+    "totalCount": 6,
+    "fileTypes": {
+      "": 1,
+      ".png": 1,
+      ".md": 2,
+      ".json": 7,
+      ".py": 5,
+      ".safetensors": 6
+    }
+  },
+  "total_count": 6,
+  "source_url": "https://huggingface.co/THUDM/cogvlm2-llama3-caption",
+  "generated_at": "2025-07-14T22:10:08.001Z"
+}
